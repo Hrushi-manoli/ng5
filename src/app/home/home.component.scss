@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4em 1.3em;
+}
+
+.color-dark {
+    background: #ff0000;
+}
+.color-light {
+    background: rgba(252, 88, 88, 0.986);
+}
+.txt {
+    border: 2px;
+    border-color: lightskyblue;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+input.btn {
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: #A5F883;
+    color: #003A61;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.task-container {
+    background: rgb(252, 40, 40);
+    padding:2px;
+    cursor: pointer;
+}
